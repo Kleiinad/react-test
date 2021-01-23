@@ -1,3 +1,4 @@
+import Link from "./components/Link"
 const Navbar = () => {
     return <>
         <div class="navbar-fixed">
@@ -5,8 +6,8 @@ const Navbar = () => {
                 <div class="nav-wrapper container">
                     <a href="#!" class="brand-logo">Logo</a>
                     <ul class="right hide-on-med-and-down">
-                        <li><a href="sass.html">Sass</a></li>
-                        <li><a href="badges.html">Components</a></li>
+                        <Link name="Google" url="google.com" /> 
+                        <Link name="Facebook" url="fb.com" /> 
                     </ul>
                 </div>
             </nav>
