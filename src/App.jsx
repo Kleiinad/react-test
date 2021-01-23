@@ -1,8 +1,8 @@
-import Navbar from './components/Navbar'
+import Home from './views/Home'
 
 const App = ()=>{
   return <>
-  <Navbar/>
+    <Home/>
   </>
 }
 
